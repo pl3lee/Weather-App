@@ -5,46 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="main.js" defer></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Weather</title>
 </head>
 <body>
     <div class="content">
         <div class="searchbar">
+            <span class="material-symbols-outlined">
+                search
+            </span>
             <input type="text">
-            <button>Search</button>
         </div>
         <div class="main">
-            <div class="location">
-                <div class="location-name">Markham</div>
-                <div class="location-country">CA</div>
+            <div class="main-left">
+                <div class="location card">
+                    <div class="location-name">Markham</div>
+                    <div class="location-country">CA</div>
+                </div>
+                <div class="weather card">
+                    <div class="weather-name">Clouds</div>
+                    <div class="weather-description">Scattered clouds</div>
+                </div>
             </div>
-            <div class="weather">
-                <div class="weather-name">Clouds</div>
-                <div class="weather-description">Scattered clouds</div>
-            </div>
-            <div class="temp">
-                <div>Temp.</div>
-                <div>50</div>
-            </div>
-            <div class="feels-like">
-                <div>Feels Like</div>
-                <div>50</div>
-            </div>
-            <div class="min-temp">
-                <div>Min temp</div>
-                <div>50</div>
-            </div>
-            <div class="max-temp">
-                <div>Max temp</div>
-                <div>50</div>
-            </div>
-            <div class="humidity">
-                <div>Humidity</div>
-                <div>50</div>
-            </div>
-            <div class="pressure">
-                <div>Air pressure</div>
-                <div>50</div>
+            <div class="main-right">
+                <div class="temp card">
+                    <div>Temp.</div>
+                    <div>50</div>
+                </div>
+                <div class="feels-like card">
+                    <div>Feels Like</div>
+                    <div>50</div>
+                </div>
+                <div class="min-temp card">
+                    <div>Min temp</div>
+                    <div>50</div>
+                </div>
+                <div class="max-temp card">
+                    <div>Max temp</div>
+                    <div>50</div>
+                </div>
+                <div class="humidity card">
+                    <div>Humidity</div>
+                    <div>50</div>
+                </div>
+                <div class="pressure card">
+                    <div>Air pressure</div>
+                    <div>50</div>
+                </div>
             </div>
         </div>
     </div>
