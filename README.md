@@ -1,5 +1,5 @@
 # About This Project
-![image](https://user-images.githubusercontent.com/64212628/170904301-2a27f0aa-2221-47c7-8f3d-fb19f6ce22eb.png)
+![image](https://user-images.githubusercontent.com/64212628/170904641-9398ec7b-5930-46f6-a05b-cc3904647599.png)
 
 Check it out: https://pl3lee.github.io/Weather-App/
 
