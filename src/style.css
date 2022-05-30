@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 body {
     width: 100vw;
@@ -32,6 +33,7 @@ input {
     background-color: transparent;
     padding: 10px;
     flex: 1;
+    text-align: left;
 }
 
 input:focus {
@@ -50,7 +52,7 @@ input:focus {
 .main-left {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    border-right: 1px solid #0f172a;
+    border-right: 2px solid rgba(0, 0, 0, 0.8);
 }
 
 .main-right {
@@ -64,4 +66,21 @@ input:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.info {
+    font-size: large;
+}
+
+.weather-description::first-letter {
+    text-transform:capitalize;
+}
+
+.location {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
 }

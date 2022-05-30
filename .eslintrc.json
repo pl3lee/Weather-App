@@ -20,5 +20,18 @@
             "error",
             "always"
         ],
+        "indent": [
+            "error",
+            4
+        ],
+        "lines-between-class-members": [
+            "error",
+            "never"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "comma-dangle": "off"
     }
 }
