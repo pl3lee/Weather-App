@@ -7,7 +7,7 @@ class Location {
     async fetchData() {
         try {
             const response = await fetch(
-                `http://api.openweathermap.org/data/2.5/weather?q=${this.name}&units=metric&APPID=21aa6ecbbe7f60001df5a96e864081a4`,
+                `https://api.openweathermap.org/data/2.5/weather?q=${this.name}&units=metric&APPID=21aa6ecbbe7f60001df5a96e864081a4`,
                 { mode: "cors" }
             );
             const data = await response.json();
